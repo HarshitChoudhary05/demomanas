@@ -5,18 +5,30 @@ const Navbar = () => {
   const { toggleTheme } = useAppContext();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const dropdownItems = [
-    { label: 'Class 6', href: '#class6' },
-    { label: 'Class 7', href: '#class7' },
-    { label: 'Class 8', href: '#class8' },
-    { label: 'Class 9', href: '#class9' },
-    { label: 'Class 10', href: '#class10' },
+  const dropdownItemsNotes = [
+    { label: 'Class 6', href: '/class6' },
+    { label: 'Class 7', href: '/class7' },
+    { label: 'Class 8', href: '/class8' },
+    { label: 'Class 9', href: '/class9' },
+    { label: 'Class 10', href: '/class10' },
+    { label: 'Class 11', href: '/class11' },
+    { label: 'Class 12', href: '/class12' },
+  ];
+
+  const dropdownItemsVideos = [
+    { label: 'Class 6', href: '/class6video' },
+    { label: 'Class 7', href: '/class7video' },
+    { label: 'Class 8', href: '/class8video' },
+    { label: 'Class 9', href: '/class9video' },
+    { label: 'Class 10', href: '/class10video' },
+    { label: 'Class 11', href: '/class11video' },
+    { label: 'Class 12', href: '/class12video' },
   ];
 
   const navLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'Notes', dropdown: dropdownItems },
-    { label: 'Videos', dropdown: dropdownItems },
+    { label: 'Home', href: '/' },
+    { label: 'Notes', dropdown: dropdownItemsNotes },
+    { label: 'Videos', dropdown: dropdownItemsVideos },
     { label: 'About', href: '#about' },
     { label: 'Contact', href: '#contact' },
   ];

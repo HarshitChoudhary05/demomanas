@@ -2,13 +2,13 @@ import React from 'react';
 
 const ChooseClass = () => {
   const classes = [
-    { className: '6', colorFrom: 'from-indigo-100', colorTo: 'to-indigo-200', textColor: 'text-indigo-600', link: '#' },
-    { className: '7', colorFrom: 'from-blue-100', colorTo: 'to-blue-200', textColor: 'text-blue-600', link: '#' },
-    { className: '8', colorFrom: 'from-teal-100', colorTo: 'to-teal-200', textColor: 'text-teal-600', link: '#' },
-    { className: '9', colorFrom: 'from-yellow-100', colorTo: 'to-yellow-200', textColor: 'text-yellow-600', link: '#' },
-    { className: '10', colorFrom: 'from-purple-100', colorTo: 'to-purple-200', textColor: 'text-purple-600', link: '#' },
-    { className: '11', colorFrom: 'from-teal-100', colorTo: 'to-teal-200', textColor: 'text-purple-600', link: '#' },
-    { className: '12', colorFrom: 'from-indigo-100', colorTo: 'to-indigo-200', textColor: 'text-purple-600', link: '#' },
+    { className: '6', colorFrom: 'from-indigo-100', colorTo: 'to-indigo-200', textColor: 'text-indigo-600', link: '/class6' },
+    { className: '7', colorFrom: 'from-blue-100', colorTo: 'to-blue-200', textColor: 'text-blue-600', link: '/class7' },
+    { className: '8', colorFrom: 'from-teal-100', colorTo: 'to-teal-200', textColor: 'text-teal-600', link: '/class8' },
+    { className: '9', colorFrom: 'from-yellow-100', colorTo: 'to-yellow-200', textColor: 'text-yellow-600', link: '/class9' },
+    { className: '10', colorFrom: 'from-purple-100', colorTo: 'to-purple-200', textColor: 'text-purple-600', link: '/class10' },
+    { className: '11', colorFrom: 'from-teal-100', colorTo: 'to-teal-200', textColor: 'text-purple-600', link: '/class11' },
+    { className: '12', colorFrom: 'from-indigo-100', colorTo: 'to-indigo-200', textColor: 'text-purple-600', link: 'class12' },
   ];
 
   return (

@@ -1,23 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link for navigation
-import { useAppContext } from '../context/AppContext';
+import { Link } from 'react-router-dom';
 
 const WhyChoose = () => {
-  // Static data simulating PHP data (could also be fetched from an API)
   const whyChooseData = {
     video_icon: '/video.png',
     notes_icon: '/notes.png',
     doubts_icon: '/doubts.png',
     mentorship_icon: '/mentorship.png',
 
-    video_description:
-      'Get access to high-quality video tutorials covering all major topics in mathematics.',
-    notes_description:
-      'Download comprehensive study notes for each topic to aid in your learning process.',
-    doubts_description:
-      'Get your doubts clarified by expert instructors through live sessions or chat.',
-    mentorship_description:
-      'Receive personalized mentorship to guide you through tough concepts and exams.',
+    video_description: 'Get access to high-quality video tutorials covering all major topics in mathematics.',
+    notes_description: 'Download comprehensive study notes for each topic to aid in your learning process.',
+    doubts_description: 'Get your doubts clarified by expert instructors through live sessions or chat.',
+    mentorship_description: 'Receive personalized mentorship to guide you through tough concepts and exams.',
   };
 
   const items = [
@@ -26,28 +20,28 @@ const WhyChoose = () => {
       icon: whyChooseData.video_icon,
       description: whyChooseData.video_description,
       bgColor: 'bg-blue-500',
-      link: '/pages/video-lessons', // Example link for Video Lessons
+      link: '/videos',
     },
     {
       title: 'Study Notes',
       icon: whyChooseData.notes_icon,
       description: whyChooseData.notes_description,
       bgColor: 'bg-green-500',
-      link: '/pages/notes', // Link to Notes page
+      link: '/notes',
     },
     {
       title: 'Doubt Clarifications',
       icon: whyChooseData.doubts_icon,
       description: whyChooseData.doubts_description,
       bgColor: 'bg-yellow-500',
-      link: '/doubts', // Example link for Doubt Clarifications
+      link: '/doubts',
     },
     {
       title: '1:1 Mentorship',
       icon: whyChooseData.mentorship_icon,
       description: whyChooseData.mentorship_description,
       bgColor: 'bg-purple-500',
-      link: '/mentorship', // Example link for Mentorship
+      link: '/mentorship',
     },
   ];
 

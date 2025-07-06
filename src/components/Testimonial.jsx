@@ -4,25 +4,25 @@ const testimonials = [
   {
     name: 'John Doe',
     title: 'Student, Class 10',
-    image: '/testimonials/john.jpg',
+    image: '/test1.svg',
     quote: 'Manas Maths has helped me understand concepts clearly. The lessons are easy to follow and extremely helpful!',
   },
   {
     name: 'Jane Smith',
     title: 'Parent of Class 8 Student',
-    image: '/testimonials/jane.jpg',
+    image: '/test2.svg',
     quote: 'I’ve seen a huge improvement in my child’s confidence in maths. The personalized learning really makes a difference.',
   },
   {
     name: 'Michael Brown',
     title: 'Student, Class 12',
-    image: '/testimonials/michael.jpg',
+    image: '/test3.svg',
     quote: 'The 1:1 mentorship has been a game-changer. I now feel much more confident about my exams!',
   },
   {
     name: 'Sarah Johnson',
     title: 'Parent of Class 6 Student',
-    image: '/testimonials/sarah.jpg',
+    image: '/test2.svg',
     quote: 'I highly recommend Manas Maths. It’s been a fantastic learning experience for my child!',
   },
 ];
