@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import 'font-awesome/css/font-awesome.min.css';
 import Notes from './pages/Notes';
 import Videos from './pages/Videos';
-import Class6 from './pages/notes/Class6';
+import Class6 from './pages/Notes/Class6';
 import TopicViewer from './context/TopicViewer';
 import Viewer from './context/Viewer';
 import Class6Video from './pages/Videos/Class6Video';
