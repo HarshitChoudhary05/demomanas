@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // To create links to navigate
 
-const Class6 = () => {
+const Class6Notes = () => {
   const topics = [
     { title: "Knowing Our Numbers", description: "Explore the concept of numbers and their types.", chapter: "knowing-our-numbers" },
     { title: "Whole Numbers", description: "Learn about whole numbers and their properties.", chapter: "whole-numbers" },
@@ -44,4 +44,4 @@ const Class6 = () => {
   );
 };
 
-export default Class6;
+export default Class6Notes;

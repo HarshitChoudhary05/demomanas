@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import 'font-awesome/css/font-awesome.min.css';
 import Notes from './pages/Notes';
 import Videos from './pages/Videos';
-import Class6 from './pages/Notes/Class6';
 import TopicViewer from './context/TopicViewer';
 import Viewer from './context/Viewer';
 import Class6Video from './pages/Videos/Class6Video';
@@ -25,6 +24,7 @@ import Class9Video from './pages/Videos/Class9Video';
 import Class10Video from './pages/Videos/Class10Video';
 import Class11Video from './pages/Videos/Class11Video';
 import Class12Video from './pages/Videos/Class12Video';
+import Class6Notes from './pages/Notes/Class6Notes';
 
 
 const App = () => {
@@ -49,7 +49,8 @@ const App = () => {
      
         <Route path="/notes" element={<Notes />} />
         <Route path="/videos" element={<Videos />} />
-        <Route path="/class6" element={<Class6 />} />
+
+        <Route path="/class6" element={<Class6Notes/>} />
         <Route path="/class7" element={<Class7/>} />
         <Route path="/class8" element={<Class8/>} />
         <Route path="/class9" element={<Class9/>} />
